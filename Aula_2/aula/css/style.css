@@ -1,0 +1,125 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1280px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: top center;
+    transform: scale(2);
+    transform-origin: center 30%;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+li a:hover{
+    color: #007bff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-bar {
+    padding: 3px 2px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: flex;
+    max-width: 30%;
+}
+
+.search-bar input{
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search-bar button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+
+.movies-grid{
+    background-image: url(../imgs/filme_do_miranha.jpg);
+    background-color: #007bff;
+    background-size: cover; 
+    background-position: center; 
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    opacity: 90%;
+}
+
+.movies-grid div{
+    width: 100%;
+    height: 100%;
+    background-color: #0000008a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movies-grid button{
+    background-color: #007bff;
+    font-size: larger;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-right: 15%;
+    text-transform: uppercase;
+}
+
+.movies-grid button:hover{
+    filter: drop-shadow(0 0 0.25rem #007bff);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.05);
+   
+
+}
+
+.movies-grid div figure{
+    margin-left: 100px;
+}

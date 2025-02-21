@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrocel.css">
+</head>
+
+<body>
+    <header>
+        <div class="imgLogo">
+            <img src="/Aula_2/aula/imgs/Logo_Movie.avif" alt="Logo do app" height="200">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#lancamento">Lançamentos</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#series">Series</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar por filme...">
+            <button>Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="lancamento">
+            <h1 style="display: none;">Lançamentos</h1>
+            <div class="movies-grid">
+                <div>
+                    <figure>
+                        <figcaption style="display: none;">homem-aranha longe de casa</figcaption>
+                        <img src="/Aula_2/aula/imgs/logo_Homem_aranha.avif" alt="Homem-Aranha: Longe de Casa"
+                            height="120">
+                    </figure>
+                    <button>Veja Mais </button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <article class="carousel">
+                <input type="radio" name="slides" checked="checked" id="slide-1">
+                <input type="radio" name="slides" id="slide-2">
+                <input type="radio" name="slides" id="slide-3">
+                <input type="radio" name="slides" id="slide-4">
+                <input type="radio" name="slides" id="slide-5">
+                <input type="radio" name="slides" id="slide-6">
+                <ul class="carousel__slides">
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://media.fstatic.com/ArY591PuOYHCiRb2CZ0zNrH3IIY=/322x478/smart/filters:format(webp)/media/movies/covers/2025/01/cats_Ex7cGWd.png" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Tim Marshall</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://ingresso-a.akamaihd.net/prd/img/movie/homem-aranha-atraves-do-aranhaverso-parte-1/216f2cb7-3a64-4b7a-a338-709bcde71147.webp" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Christian Joudrey</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/11073/filme_11073.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Steve Carter</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://96fmbauru.com.br/wp-content/uploads/2024/11/ainda-estou-aqui32409.webp" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Aleksandra Boguslawska</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://ingresso-a.akamaihd.net/prd/img/movie/sonic-3-o-filme/63e3c50d-0a24-49dd-a5ad-8d15d487d5e4.webp" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Rosan Harmens</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="carousel__slide">
+                        <figure>
+                            <div>
+                                <img src="https://br.web.img3.acsta.net/pictures/23/09/20/17/54/4013241.jpg" alt="">
+                            </div>
+                            <figcaption>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <span class="credit">Photo: Annie Spratt</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+                <ul class="carousel__thumbnails">
+                    <li>
+                        <label for="slide-1"><img src="https://media.fstatic.com/ArY591PuOYHCiRb2CZ0zNrH3IIY=/322x478/smart/filters:format(webp)/media/movies/covers/2025/01/cats_Ex7cGWd.png" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-2"><img src="https://ingresso-a.akamaihd.net/prd/img/movie/homem-aranha-atraves-do-aranhaverso-parte-1/216f2cb7-3a64-4b7a-a338-709bcde71147.webp" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-3"><img src="https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/11073/filme_11073.jpg" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-4"><img src="https://96fmbauru.com.br/wp-content/uploads/2024/11/ainda-estou-aqui32409.webp" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-5"><img src="https://ingresso-a.akamaihd.net/prd/img/movie/sonic-3-o-filme/63e3c50d-0a24-49dd-a5ad-8d15d487d5e4.webp" alt=""></label>
+                    </li>
+                    <li>
+                        <label for="slide-6"><img src="https://br.web.img3.acsta.net/pictures/23/09/20/17/54/4013241.jpg" alt=""></label>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>
